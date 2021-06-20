@@ -1,3 +1,9 @@
+a {
+   text-decoration: none;
+   list-style: none;
+   color: #000;
+}
+
 .POPOSSpace {
   width: 100%;
   text-align: center;
