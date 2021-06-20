@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './sfpopos-data.json';
+import data from '../../sfpopos-data.json';
 
 const POPOSDetails = (props) => {
    const { id } = props.match.params // Location index
@@ -8,7 +8,7 @@ const POPOSDetails = (props) => {
    return (
       <div>
          <div>
-            <img src={`${process.env.PUBLIC_URL}images/${images[0]}`} />
+            <img src={`${process.env.PUBLIC_URL}images/${images[0]}`} alt="Hello" />
          </div>
 
          <div>

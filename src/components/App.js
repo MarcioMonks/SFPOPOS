@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
-import Title from './Title';
-import POPOSList from './POPOSList';
-import Footer from './Footer';
-import About from './About';
-import POPOSDetails from './POPOSDetails';
+import Title from '../components/Title/Title';
+import POPOSList from '../components/POPOSList/POPOSList';
+import Footer from '../components/Footer/Footer';
+import About from '../components/About/About';
+import POPOSDetails from '../components/POPOSDetails/POPOSDetails';
 
 
 function App() {
